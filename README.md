@@ -25,9 +25,11 @@ Este projeto consiste em uma página de produto interativa que permite aos usuá
 2. **Imagens Dinâmicas:** Cada cor selecionada exibe uma imagem correspondente do produto. As imagens são carregadas automaticamente para fornecer uma representação visual precisa.
 
 ▫️ Tecnologias Utilizadas:
+<br>
 A página utiliza HTML, CSS e JavaScript para criar uma experiência dinâmica e envolvente.
 
 ▫️ Imagens:
-![Imagem Azul](https://github.com/jaquelinereiz/PaginaProdutoBackgroundDinamico/assets/91039376/fbc041ce-d277-4a04-8310-6cded8ae55cb)
-![Imagem Lilás](https://github.com/jaquelinereiz/PaginaProdutoBackgroundDinamico/assets/91039376/dbf34d18-22a0-40a7-8442-aa873725a74f)
+<br><br>
+![imagemAzul](https://github.com/user-attachments/assets/361a5bb8-d12b-49bc-abf1-fc04daf1b024)
+![imagemBege](https://github.com/user-attachments/assets/b50f44bd-0802-4dfb-bfc3-c43f8e4ae819)
 
