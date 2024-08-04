@@ -1,0 +1,95 @@
+*{
+    padding: 0;
+    margin: 0;
+    font-family: "Open Sans",sans-serif;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: #7fbdfc;
+    transition: 0.6s linear;
+}
+
+.produto-card{
+    width: 500px;
+    background-color: #ffffff;
+    padding: 55px;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    text-transform: uppercase;
+}
+
+.produto-card h1{
+    font-size: 22px;
+    margin-bottom: 4px;
+}
+
+.produto-card p{
+    font-size: 13px;
+    color: #bbb;
+}
+
+.produto-pic{
+    background-image: url(azul.webp);
+    width: 100%;
+    height: 200px;
+    background-size: cover;
+    background-position: center;
+}
+
+.produto-colors{
+    margin-bottom: 40px;
+    display: flex;
+    justify-content: center;
+}
+
+.produto-colors span{
+    width: 14px;
+    height: 14px;
+    background-color: red;
+    margin: 0 10px;
+    border-radius: 50%;
+    cursor: pointer;
+    position: relative;
+}
+.produto-colors .azul{
+    background: #74b9ff;
+}
+.produto-colors .lilas{
+    background: #a7a1fd;
+}
+.produto-colors .amarelo{
+    background: #ffd900;
+}
+.produto-colors .bege{
+    background: #d4cfb2;
+}
+.produto-colors .salmao{
+    background: #ffbe76;
+}
+
+.produto-info{
+    display: flex;
+    align-items: center;
+}
+
+.produto-preco{
+    color: #b0b2b4;
+    font-size: 20px;
+}
+
+.produto-button{
+    margin-left: auto;
+    color: #b0b2b4;
+    text-decoration: none;
+    border: 2px solid;
+    padding: 8px 24px;
+    border-radius: 20px;
+    transition: .4s linear;
+}
+
+.produto-button:hover{
+    transform: scale(1.06);
+}

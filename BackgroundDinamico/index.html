@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles/style.css">
+    <title>Produto: Converse</title>
+</head>
+<body>
+    <div class="produto-card">
+        <h1>All Star Original</h1>
+        <p>Sit amet, consectetur adipisicing elit.</p>
+        <div class="produto-pic"></div>
+        <div class="produto-colors">
+            <span class="azul" data-color="#74b9ff" data-pic="img/azul.webp"></span>
+            <span class="lilas"  data-color="#a7a1fd" data-pic="img/lilas.webp"></span>
+            <span class="amarelo" data-color="#ffcf76" data-pic="img/amarelo.webp"></span>
+            <span class="bege" data-color="#d4cfb2" data-pic="img/bege.webp"></span>
+            <span class="salmao" data-color="#ffbe76" data-pic="img/salmao.jpg"></span>
+        </div>
+        <div class="produto-info">
+            <div class="produto-preco">R$289,90</div>
+            <a href="#" class="produto-button">adicionar ao carrinho</a>
+        </div>
+    </div>
+    <script src="https://code.jquery.com/jquery-3.6.4.min.js"></script>
+    <script>
+        $(".produto-colors .azul").addClass("ativo");
+        var picUrl = "url(" + $(".produto-colors .azul").attr("data-pic") + ")";
+        $(".produto-pic").css("background-image", picUrl);
+        $("body").css("background", $(".produto-colors .azul").attr("data-color"));
+
+        $(".produto-colors span").click(function(){
+            $(".produto-colors span").removeClass("ativo");
+            $(this).addClass("ativo");
+            $("body").css("background", $(this).attr("data-color"));
+            var picUrl = "url(" + $(this).attr("data-pic") + ")";
+            $(".produto-pic").css("background-image", picUrl);
+        });
+    </script>
+</body>
+</html>
