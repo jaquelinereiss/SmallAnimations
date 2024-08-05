@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Botões background color</title>
+</head>
+<body>
+    <div class="container">
+        <button class="azul" id="btn-azul"></button>
+        <button class="verde" id="btn-verde"></button>
+        <button class="amarelo" id="btn-amarelo"></button>
+        <button class="rosa" id="btn-rosa"></button>
+    </div>
+    <script>
+        document.getElementById("btn-azul").addEventListener("click", function(){
+            document.querySelector("body").setAttribute("class","azul")
+        })
+
+        document.getElementById("btn-verde").addEventListener("click", function(){
+            document.querySelector("body").setAttribute("class","verde")
+        })
+
+        document.getElementById("btn-amarelo").addEventListener("click", function(){
+            document.querySelector("body").setAttribute("class","amarelo")
+        })
+
+        document.getElementById("btn-rosa").addEventListener("click", function(){
+            document.querySelector("body").setAttribute("class","rosa")
+        })
+    </script>
+</body>
+</html>
